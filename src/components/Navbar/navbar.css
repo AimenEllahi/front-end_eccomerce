@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #495371 !important;
+}
+
+.navbar-1 {
+  margin-left: 20rem;
+}
+
+.navbar-brand {
+  color: #f1f1f1 !important;
+  font-weight: 700 !important;
+}
+.name {
+  color: #f1f1f1 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: #f1f1f1 !important;
+}
+.btn-outline-success {
+  color: #f1f1f1 !important;
+}
+.btn-outline-success {
+  border-color: #f1f1f1 !important ;
+}
+
+.drop-down {
+  margin-left: 1rem;
+}
+.my-nav-links {
+  max-height: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  margin-right: 1.2rem;
+}
+
+.name {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.name:hover {
+  letter-spacing: 1.2px;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 8px 15px;
+}
+
+.signup-btn {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .my-nav-links {
+    width: 40%;
+  }
+}

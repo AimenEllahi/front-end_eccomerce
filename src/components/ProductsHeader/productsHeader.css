@@ -1,0 +1,47 @@
+.bg_img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  height: 70vh;
+  opacity: 0.8;
+}
+
+.header-desc {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  border: 2px black;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-container {
+  display: flex;
+  margin-top: 3%;
+  width: 50%;
+}
+
+.search {
+  height: 7vh;
+  border: none;
+  padding: 0 1rem;
+}
+
+.search-button {
+  margin-top: 3px;
+  height: 7vh;
+  width: 3.8rem;
+  border-color: #495371;
+}
+
+.header-title {
+  margin-top: 25rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: oblique;
+}

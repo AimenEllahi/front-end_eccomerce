@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./pages/Home/home";
+import Footer from "./components/Footer/footer";
+import Products from "./pages/Products/products";
+import Navbar from "./components/Navbar/navbar";
+import { useDispatch } from "react-redux";
+import { getProducts } from "./actions/products";
+import { useEffect } from "react";
+import { useRoutes } from "react-router-dom";
+import ThemeRoutes from "./routes/Router";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const routing = useRoutes(ThemeRoutes);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getProducts());
+  });
+
+  return <div className='dark'>{routing}</div>;
 }
 
 export default App;

@@ -1,0 +1,11 @@
+.products-title {
+  text-align: center;
+  margin: 3rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.product-card-container {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}

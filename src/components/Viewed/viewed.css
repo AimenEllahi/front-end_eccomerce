@@ -1,0 +1,36 @@
+.product-details {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.order-btn {
+  margin-top: 3%;
+  padding: 8px 16px;
+  border: none;
+  color: beige;
+  background-color: #495371;
+  transition: 0.7s;
+}
+
+.order-btn:hover {
+  letter-spacing: 1.5px;
+}
+
+.most-viewed-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.viewed-container-1 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
